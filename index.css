@@ -18,10 +18,9 @@ html {
 
 /* HOMEPAGE */
 .homepage {
-    background-image: url("img/background.jpg");
+    background-image: url("img/homepage.png");
     background-position: center;
     background-size: cover;
-    min-height: 100vh;
 }
 
 .myname {
@@ -34,7 +33,7 @@ html {
     width: 80%;
     text-align: center;
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     mix-blend-mode: screen;
@@ -70,11 +69,6 @@ html {
 }
 
 @media screen and (max-width: 1439px) {
-    /* .picture {
-        margin-top:  !important;
-        
-    } */
-
     .contactArea {
         margin-top: -20px !important;
     }
@@ -82,25 +76,13 @@ html {
 }
 
 @media screen and (max-width: 900px) {
-
     .contactArea {
         margin-top: -5px !important;
     }
 
 }
 
-
 @media screen and (max-width: 767px) {
-    .name {
-        margin-top: 100px !important;
-
-    }
-
-    .picture {
-        margin-top: -100px !important;
-        
-    }
-
     .contactArea {
         margin-top: -20px !important;
     }
