@@ -11,6 +11,16 @@ body {
 html {
     scroll-behavior: smooth;
 }
+/* NAVBAR */
+.navbar{
+    background-color: #D8D1CB; 
+    border: none; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#myNavbar a:hover {
+    background-color: #C2B5A6;
+}
 
 /* HOMEPAGE */
 .homepage {
