@@ -1,5 +1,4 @@
 * {
-    
     box-sizing: border-box;
 }
 
@@ -9,9 +8,12 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
 /* HOMEPAGE */
-.homepage{
+.homepage {
     background-image: url("img/background.jpg");
     background-position: center;
     background-size: cover;
@@ -21,7 +23,7 @@ body {
 .myname {
     background-color: white;
     color: black;
-    font-size: 8vw; 
+    font-size: 8vw;
     font-weight: bold;
     margin: 0 auto;
     padding: 1px;
@@ -32,53 +34,57 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     mix-blend-mode: screen;
-  }
+}
 
-.about, .output, .contact{
+.about,
+.output,
+.contact {
     padding: 20px;
     padding-bottom: 0;
 }
 
-.desc{
+.desc {
     font-size: 18px;
 }
 
-.social{
+.social {
     float: left;
     cursor: pointer;
     padding: 5px;
     border-color: none;
 }
 
-.social-icon{
-   margin: 15px;
+.social-icon {
+    margin: 15px;
     transition: all 0.3s ease;
-    
+
 }
 
 .social-icon:hover {
-    transform: scale(1.2); /* Scale up on hover */
+    transform: scale(1.2);
+    /* Scale up on hover */
 }
 
 @media screen and (max-width: 767px) {
-    .name{
+    .name {
         margin-top: 100px !important;
-        
+
     }
-    .picture{
+
+    .picture {
         margin-top: -100px !important;
     }
 
-    .contactArea{
+    .contactArea {
         margin-top: -20px !important;
     }
-    
+
 }
 
 @media screen and (max-width: 900px) {
 
-    .contactArea{
+    .contactArea {
         margin-top: -5px !important;
     }
-    
+
 }
